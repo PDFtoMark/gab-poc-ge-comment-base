@@ -26,6 +26,9 @@ validation_operators:
       action:
         class_name: UpdateDataDocsAction
 stores:
+  evil_store:
+    class_name: EvilStore
+    module_name: evil
   expectations_store:
     class_name: ExpectationsStore
     store_backend:
